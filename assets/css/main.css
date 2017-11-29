@@ -1,0 +1,169 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+/*SECTION HEADER O BARRA DE NAVEGACIÓN*/
+header {
+  background-color: #2e6876;
+  color: #f7e9cc;
+}
+
+.title {
+  font-size: 150%;
+}
+
+.options {
+  text-align: right;
+  list-style: none;
+}
+
+.list-options {
+  display: inline-block;
+  margin-left: 3%;
+}
+
+.fa-bars { 
+  visibility: hidden;
+}
+
+/*SECTION HOMEPAGE*/
+.container-homepage {
+  text-align: center;
+}
+
+.logo-homepage {
+  width: 45%;
+}
+
+.list {
+  list-style: none;
+}
+
+/*SECTION ABOUT US*/
+.about-us {
+  margin: 5% 0% 8% 0%;
+}
+
+.container-text-aboutus {
+  margin-left: 10%;
+  text-align: justify;
+  font-size: 100%;
+}
+
+.title-aboutus,
+.title-contact {  
+  font-size: 200%;
+  color: #605240;
+}
+
+.title-aboutus {
+  margin: 2% 0% 5% 0%;
+}
+
+.title-contact {
+  margin: 4% 0% 3% 0%;
+}
+
+.text-aboutus,
+.text-contact,
+.list {
+  margin: 2% 0% 2% 0%;
+  font-size:95%;
+  color: #605240;
+}
+
+.list-contact {
+  margin-top: 5%;
+}
+
+.container-text-contact {
+  margin-left: 5%;
+}
+
+.button-message{
+  background-color:#e0cbac;
+  text-align: center; 
+  border-radius: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: #605240;
+}
+
+/*SECTION PRODUCTS*/
+.container-products {
+  text-align: center;
+  width: 95%;
+  margin-bottom: 5%;    
+}
+
+.container-product1{
+  margin-left: 12%;
+  border: 2px solid #e0cbac;
+  border-radius: 5px;
+  padding: 0;
+  background-color: #e0cbac
+}
+
+.container-product2,
+.container-product3 {
+  margin-left: 2%;
+  margin-right: 2%;
+  border: 2px solid #e0cbac;
+  border-radius: 5px;
+  padding: 0;
+  background-color: #e0cbac;
+}
+
+.picture-product1,
+.picture-product2,
+.picture-product3 {
+  text-align: center;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.description-product1,
+.description-product2,
+.description-product3 {
+  text-align: left;
+  width: 90%;
+  font-size: 85%;
+  color: #544737;
+}
+
+.description-product1 {
+  padding: 5% 0% 5% 8%;
+}
+
+.description-product2 {
+  padding: 5% 0% 11% 9%;
+}
+
+.description-product3 {
+  padding: 5% 0% 27% 9%;
+}
+
+.button-product1 {
+  background-color: #544737;
+  margin: 0% 0% 4% 8%;
+  border-radius: 5px;
+  
+}
+
+.text-buttonproduct1 {
+  color: #e0cbac;
+}
+
+/*SECTION FOOTER*/
+footer {
+  background-color: #2e6876;
+  color: #e0cbac;
+  text-align: center;
+}
+
+.last {
+  margin: 2% 0% 2% 0%;
+}

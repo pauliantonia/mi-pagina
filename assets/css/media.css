@@ -1,0 +1,72 @@
+@media (min-width: 10px) and (max-width: 750px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+
+    header { 
+        font-size: 120%;
+    }
+
+    .list-options {
+       visibility: hidden;
+    }
+
+    .fa-bars {
+       visibility: visible;
+       text-align: right;
+       font-size: 160%;
+       display: inline;
+    }
+
+    .navigation-bar {
+        height: 80px;;
+    }
+
+    .logo-homepage {
+        width: 100%;
+        margin: 0% 0% 5% 0%;
+    }
+
+    .title-aboutus,
+    .title-contact{
+        font-size: 130%;
+    }
+
+    .container-text-aboutus {
+        width: 95%;
+        margin: 0% 2% 0% 2%;
+        font-size: 140%;
+    }
+
+    .container-text-contact {
+        width: 95%;
+        font-size: 140%;
+    }
+
+    .button-message {
+        width: 60%;
+    }
+
+    .message-text {
+        font-weight: bold;
+    }
+
+    .container-product1,
+    .container-product2,
+    .container-product3 {
+        width: 92%;
+        margin: 5% 0% 5% 4%;
+        text-align: center;
+        font-size: 180%;
+    }
+
+    .button-product1 {
+        width: 80%;
+    }
+
+    .last{
+        margin: 6% 0% 6% 0%;
+        font-size: 110%;
+    }
+
+}
