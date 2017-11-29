@@ -7,6 +7,10 @@
         font-size: 120%;
     }
 
+    .title {
+        margin-left: 3%;
+    }
+
     .list-options {
        visibility: hidden;
     }
@@ -15,7 +19,8 @@
        visibility: visible;
        text-align: right;
        font-size: 160%;
-       display: inline;
+       display: inline-block;
+       margin-left: 60%;
     }
 
     .navigation-bar {
